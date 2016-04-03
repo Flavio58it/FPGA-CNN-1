@@ -1,0 +1,3 @@
+Language File-Name                              IP                                 Library             File-Path                                                                                                             
+VHDL,    blk_mem_gen_v8_3.vhd,                  blk_mem_gen_1_TDP_Ar18w72_Br72w72, blk_mem_gen_v8_3_0, ./../../../ipstatic/blk_mem_gen_v8_3_0/simulation/blk_mem_gen_v8_3.vhd                                                
+VHDL,    blk_mem_gen_1_TDP_Ar18w72_Br72w72.vhd, blk_mem_gen_1_TDP_Ar18w72_Br72w72, xil_defaultlib,     ./../../../../ConvEngine.srcs/sources_1/ip/blk_mem_gen_1_TDP_Ar18w72_Br72w72/sim/blk_mem_gen_1_TDP_Ar18w72_Br72w72.vhd

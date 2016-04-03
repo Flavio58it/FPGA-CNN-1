@@ -1,0 +1,142 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 12.03.2016 01:42:06
+-- Design Name: 
+-- Module Name: ConvEngineMACunits_DataPath - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+use work.NetworkPackage.all;
+use work.ConvPackage.all;
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+--#Begin --Component
+--#End	 --Component
+--#Begin --Type
+--#End 	--Type
+--#Begin --Signal
+--#End	 --Signal
+
+entity ConvEngineMACunits_DataPath is
+	  Port ( clk,rst: in std_logic;
+	  		-- Control I/O
+			MACRow_Enable: std_logic_vector(0 to 3); -- One bit for each row
+
+			-- Data and Control I/o from/to Weight Bank
+			WeighInput: in ConvUnitWeightPort_t; 
+			Wait_FrmWeightStream: in std_logic;
+			Enable_StreamingWeight: out std_logic;
+
+			-- Data and Control I/o from/to Feature Bank
+			DataInput: in ConvUnitDataPort_t;
+			Wait_FromDataSream: in std_logic;
+			Enable_StreamingData:in std_logic
+	  );
+end ConvEngineMACunits_DataPath;
+
+architecture Behavioral of ConvEngineMACunits_DataPath is
+--#Begin --Component
+component xbip_dsp48_macro_A18_B18_P48_NoRounding
+	port(CLK  : in  STD_LOGIC;
+		 CE   : in  STD_LOGIC;
+		 SCLR : in  STD_LOGIC;
+		 A    : in  STD_LOGIC_VECTOR(17 downto 0);
+		 B    : in  STD_LOGIC_VECTOR(17 downto 0);
+		 P    : out STD_LOGIC_VECTOR(47 downto 0));
+end component xbip_dsp48_macro_A18_B18_P48_NoRounding;
+--#End	 --Component
+
+--#Begin --Type
+  type MACUnitOutput_48BitVector_st is array (0 to C_ShiftUnitSize-1) of std_logic_vector(47 downto 0);
+  type MACUnitOutput_48Bitvector_t is array (0 to C_NumberofParallelShiftUnits-1) of MACUnitOutput_48BitVector_st;
+
+--#End 	--Type
+
+--#Begin --Signal
+	--Weight Input to MAC rows
+signal WeightInputToRow0,WeightInputToRow1,WeightInputToRow2,WeightInputToRow3: ConvUnitWeightPort_t;
+signal MACUnit0_Output,MACUnit1_Output,MACUnit2_Output,MACUnit3_Output: MACUnitOutput_t;
+signal MACUnit0_VectorOutput,MACUnit1_VectorOutput,MACUnit2_VectorOutput,MACUnit3_VectorOutput: MACUnitOutput_48Bitvector_t; 
+
+signal CE   :   STD_LOGIC;
+signal SCLR :   STD_LOGIC;
+signal A    :   STD_LOGIC_VECTOR(17 downto 0);
+signal B    :  STD_LOGIC_VECTOR(17 downto 0);
+signal P    :  STD_LOGIC_VECTOR(47 downto 0);
+--#End	 --Signal
+begin
+
+DSPRow0_loop:for i in 0 to 255 generate
+		DSPRow0: xbip_dsp48_macro_A18_B18_P48_NoRounding
+			port map(
+				CLK  => CLK,
+				CE   => MACRow_Enable(0),
+				SCLR => SCLR,
+				A    => DataInput(i/8)(i mod 8),
+				B    => std_logic_vector(WeightInputToRow0(i/8)),
+				P    => MACUnit0_VectorOutput(i/8)(i mod 8)
+			);
+	end generate DSPRow0_loop;
+
+
+DSPRow1_loop:for i in 0 to 255 generate
+		DSPRow1: xbip_dsp48_macro_A18_B18_P48_NoRounding
+			port map(
+				CLK  => CLK,
+				CE   => MACRow_Enable(1),
+				SCLR => SCLR,
+				A    => DataInput(i/8)(i mod 8),
+				B    => std_logic_vector(WeightInputToRow1(i/8)),
+				P    => MACUnit1_VectorOutput(i/8)(i mod 8)
+			);
+	end generate DSPRow1_loop;
+
+DSPRow2_loop:for i in 0 to 255 generate
+		DSPRow2: xbip_dsp48_macro_A18_B18_P48_NoRounding
+			port map(
+				CLK  => CLK,
+				CE   => MACRow_Enable(2),
+				SCLR => SCLR,
+				A    => DataInput(i/8)(i mod 8),
+				B    => std_logic_vector(WeightInputToRow2(i/8)),
+				P    => MACUnit2_VectorOutput(i/8)(i mod 8)
+			);
+	end generate DSPRow2_loop;
+
+DSPRow3_loop:for i in 0 to 255 generate
+		DSPRow3: xbip_dsp48_macro_A18_B18_P48_NoRounding
+			port map(
+				CLK  => CLK,
+				CE   => MACRow_Enable(3),
+				SCLR => SCLR,
+				A    => DataInput(i/8)(i mod 8),
+				B    => std_logic_vector(WeightInputToRow3(i/8)),
+				P    => MACUnit3_VectorOutput(i/8)(i mod 8)
+			);
+	end generate DSPRow3_loop;
+
+end Behavioral;

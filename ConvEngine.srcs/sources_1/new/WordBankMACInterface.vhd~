@@ -1,0 +1,75 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 25.01.2016 16:03:31
+-- Design Name: 
+-- Module Name: WordBankMACInterface - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+--use ieee.std_logic_unsigned.all;
+use IEEE.NUMERIC_STD.ALL;
+
+library work;
+use work.NetworkPackage.all;
+use work.ConvPackage.all;
+use work.WeightBankPkg.all;
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity WeightBankMACInterface is
+  Port ( WordsFromWeightBank: in WeightBankOutput_t;
+         clk,rst: in std_logic;
+         Level1_MuxSelect: in Level1_BankMuxSelect_t;
+         Level2_MuxSelect: in Level2_ParallelWeightChannelsMuxSelect_t;
+         Level2_to_StreamingBRAM: out ParallelWeightChannels_t;
+         );
+  
+begin
+    assert (C_NumberofParallelWeightChannels < 2) report "Error:NumberofParallelWeightsChannel in WeightBank interface is less than 2";
+end WeightBankMACInterface;
+
+architecture Behavioral of WeightBankMACInterface is
+-----types
+type Level1_to_Level2_Interface_t is array (0 to C_NumberofWeightBanks/C_NumberofParallelWeightChannels-1) of ParallelWeightChannels_t; 
+---signal---
+signal Bank_to_Level1: Level1_to_Level2_Interface_t; 
+signal Level1_to_Level2_Interface: Level1_to_Level2_Interface_t; 
+------------
+begin
+process(WordsFromWeightBank,Level1_MuxSelect,Bank_to_Level1)
+  begin
+    for i in 0 to (C_NumberofWeightBanks-1) loop
+        Bank_to_Level1(i/C_NumberofParallelWeightChannels)(i mod C_NumberofParallelWeightChannels)<= WordsFromWeightBank(i);
+    end loop;
+
+    for i in 0 to (C_NumberofWeightBanks/C_NumberofParallelWeightChannels-1) loop
+      for j in 0 to C_NumberofParallelWeightChannels-1 loop
+       -- Level1_to_Level2_Interface(i)(j)<= WordsFromWeightBank(C_NumberofParallelWeightChannels*i + (to_integer(Unsigned(Level1_MuxSelect(j)))) );
+        -- Level1_to_Level2_Interface(i)(j)<= WordsFromWeightBank((to_integer(Unsigned(Level1_MuxSelect(j)))) );
+        Level1_to_Level2_Interface(i)(j)<= Bank_to_Level1(i)(to_integer(Unsigned(Level1_MuxSelect(j))));
+      end loop;
+    end loop;   
+end process;
+Level2_to_StreamingBRAM<= Level1_to_Level2_Interface(to_integer(Unsigned(Level2_MuxSelect)));
+end Behavioral;

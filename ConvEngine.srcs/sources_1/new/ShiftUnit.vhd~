@@ -1,0 +1,56 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 19.01.2016 10:52:41
+-- Design Name: 
+-- Module Name: ShiftUnit - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.std_logic_unsigned.all;
+
+library work;
+use work.NetworkPackage.all;
+use work.ShiftUnitPackage.all;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity ShiftUnit is
+  Port ( InputWords : in ShiftPort_t;
+         OutputWords: out  ShiftPort_t
+       );
+
+end ShiftUnit;
+
+architecture Behavioral of ShiftUnit is
+----- signals ----------------
+signal Dummy: std_logic_vector( (C_DataBitWidth-1) downto 0);
+signal hello: std_logic_vector(7 downto 0);
+signal Count: std_logic_vector(5 downto 0);
+---------------------------
+begin 
+
+OutputWords<= InputWords;
+
+end Behavioral;

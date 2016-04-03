@@ -1,0 +1,61 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto 550eb3c5a432405b9324e15c5ef7c990 --debug typical --relax --mt 8 -L xil_defaultlib -L fifo_generator_v13_0_0 -L secureip --snapshot ConvEngineOutput_Top_tb_behav xil_defaultlib.ConvEngineOutput_Top_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1766] non-static loop limit of 500000 exceeded [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sim_1/new/ReadTextFileLibrary.vhd:62]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.networkpackage
+Compiling package xil_defaultlib.convengineweightbankpkg
+Compiling package xil_defaultlib.convpackage
+Compiling package xil_defaultlib.convenginedatabankpkg
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.readtextfilelibrary
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.ConvEngineOutput_Datapath_Alternate [convengineoutput_datapath_altern...]
+Compiling architecture behavioral of entity xil_defaultlib.ConvEngineOutput_Control [convengineoutput_control_default]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,5,"...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,5,"B...]
+Compiling architecture fifo_generator_width320_depth16_distram_arch of entity xil_defaultlib.fifo_generator_Width320_Depth16_DistRAM [fifo_generator_width320_depth16_...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,5,"...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,5,"B...]
+Compiling architecture fifo_generator_width16_depth16_distram_arch of entity xil_defaultlib.fifo_generator_Width16_Depth16_DistRAM [fifo_generator_width16_depth16_d...]
+Compiling architecture behavioral of entity xil_defaultlib.ConvEngineOutput_Control_Level1_DataBank [convengineoutput_control_level1_...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,5,"...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,5,"B...]
+Compiling architecture fifo_generator_width480_depth16_distram_arch of entity xil_defaultlib.fifo_generator_Width480_Depth16_DistRAM [fifo_generator_width480_depth16_...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,10,...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,10,"...]
+Compiling architecture fifo_generator_width160_depth512_arch of entity xil_defaultlib.fifo_generator_Width160_Depth512 [fifo_generator_width160_depth512...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,5,"...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,5,"B...]
+Compiling architecture fifo_generator_width28_depth16_distram_arch of entity xil_defaultlib.fifo_generator_Width28_Depth16_DistRAM [fifo_generator_width28_depth16_d...]
+Compiling architecture behavioral of entity xil_defaultlib.ConvEngineOutput_Control_Level1_DDR [convengineoutput_control_level1_...]
+Compiling architecture behavioral of entity xil_defaultlib.ConvEngineOutput_Top [convengineoutput_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.convengineoutput_top_tb
+Built simulation snapshot ConvEngineOutput_Top_tb_behav

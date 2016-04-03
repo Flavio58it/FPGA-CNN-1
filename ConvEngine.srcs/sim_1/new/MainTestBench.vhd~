@@ -1,0 +1,91 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 22.01.2016 12:40:31
+-- Design Name: 
+-- Module Name: MainTestBench - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.std_logic_unsigned.all;
+use IEEE.NUMERIC_STD.ALL;
+
+library work;
+use work.NetworkPackage.all;
+use work.ConvPackage.all;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity MainTestBench is
+--  Port ( );
+end MainTestBench;
+
+
+configuration SelectTestBench of MainTestBench is
+  for DataBRAM_ConvUnitInterface_tb
+  end for;
+end SelectTestBench;
+
+architecture DataBRAM_ConvUnitInterface_tb of MainTestBench is
+---Components---
+component DataBRAM_ConvUnitInterface
+   Port (BRAMWord: in DataBRAMPort_t;
+        clk,rst: in std_logic;
+        LoadEnable: in std_logic_vector(0 to C_NumberofParallelUnits-1);
+        MuxSelect: in DataBRAM_ConvUnitInterfaceMuxSelect_t;
+        TowardsConvUnit: out ConvUnitPort_t
+        );
+end component;
+-------signals
+signal BRAMWord: in DataBRAMPort_t;
+signal clk,rst: in std_logic;
+signal LoadEnable: in std_logic_vector(0 to C_NumberofParallelUnits-1);
+signal MuxSelect: in DataBRAM_ConvUnitInterfaceMuxSelect_t;
+signal TowardsConvUnit: out ConvUnitPort_t;
+------Constants----
+constant ClockPeriod : TIME := 50 ns;
+begin
+uut: DataBRAM_ConvUnitInterface port map (BRAMWord=>BRAMWord,
+                                          clk=>clk,rst=>rst,
+                                          LoadEnable=>LoadEnable,
+                                          MuxSelect=>MuxSelect,
+                                          TowardsConvUnit=>TowardsConvUnit);
+
+process begin
+  for i in 0 to 2000 loop
+    clk<= '1'; wait for ClockPeriod/2;
+    clk<= '0'; wait for ClockPeriod/2;
+  end loop;
+end process;
+
+process
+  begin
+    if i=0 then
+      rst<=0;
+      LoadEnable<= (others=>'0');
+    end if;
+end process;
+
+
+end DataBRAM_ConvUnitInterface_tb;

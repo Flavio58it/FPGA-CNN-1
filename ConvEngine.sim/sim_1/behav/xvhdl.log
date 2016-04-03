@@ -1,0 +1,64 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/GlobalPackage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/WeightBankPkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.ip_user_files/ipstatic/fifo_generator_v13_0_0/simulation/fifo_generator_vhdl_beh.vhd" into library fifo_generator_v13_0_0
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_bhv_as
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_bhv_ss
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_bhv_preload0
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_conv
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_axic_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_vhdl_beh
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.ip_user_files/ipstatic/fifo_generator_v13_0_0/hdl/fifo_generator_v13_0_rfs.vhd" into library fifo_generator_v13_0_0
+INFO: [VRFC 10-307] analyzing entity input_blk
+INFO: [VRFC 10-307] analyzing entity output_blk
+INFO: [VRFC 10-307] analyzing entity shft_wrapper
+INFO: [VRFC 10-307] analyzing entity shft_ram
+INFO: [VRFC 10-307] analyzing entity wr_pf_as
+INFO: [VRFC 10-307] analyzing entity wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity rd_pe_as
+INFO: [VRFC 10-307] analyzing entity rd_pe_ss
+INFO: [VRFC 10-307] analyzing entity synchronizer_ff
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity bin_cntr
+INFO: [VRFC 10-307] analyzing entity clk_x_pntrs_builtin
+INFO: [VRFC 10-307] analyzing entity logic_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth
+INFO: [VRFC 10-307] analyzing entity builtin_top
+INFO: [VRFC 10-307] analyzing entity reset_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_low_latency
+INFO: [VRFC 10-307] analyzing entity builtin_top_v6
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_builtin
+INFO: [VRFC 10-307] analyzing entity bram_sync_reg
+INFO: [VRFC 10-307] analyzing entity bram_fifo_rstlogic
+INFO: [VRFC 10-307] analyzing entity reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity axi_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0_synth
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/fifo_generator_Width480_Depth16_DistRAM/sim/fifo_generator_Width480_Depth16_DistRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo_generator_Width480_Depth16_DistRAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/fifo_generator_Width320_Depth16_DistRAM/sim/fifo_generator_Width320_Depth16_DistRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo_generator_Width320_Depth16_DistRAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/fifo_generator_Width28_Depth16_DistRAM/sim/fifo_generator_Width28_Depth16_DistRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo_generator_Width28_Depth16_DistRAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/fifo_generator_Width16_Depth16_DistRAM/sim/fifo_generator_Width16_Depth16_DistRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo_generator_Width16_Depth16_DistRAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/fifo_generator_Width160_Depth512/sim/fifo_generator_Width160_Depth512.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo_generator_Width160_Depth512
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvPackage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineDataBankPkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineOutput_Datapath_Alternate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Datapath_Alternate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineOutput_Control_Level1_DDR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Control_Level1_DDR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineOutput_Control_Level1_DataBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Control_Level1_DataBank
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineOutput_Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Control
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/new/ConvEngineOutput_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sim_1/new/ReadTextFileLibrary.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sim_1/new/ConvEngineOutput_Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ConvEngineOutput_Top_tb

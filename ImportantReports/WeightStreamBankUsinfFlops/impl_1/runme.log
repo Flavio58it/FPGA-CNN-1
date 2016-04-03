@@ -1,0 +1,705 @@
+
+*** Running vivado
+    with args -log Test.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Test.tcl -notrace
+
+
+****** Vivado v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source Test.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[0].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[10].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[11].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[12].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[13].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[14].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[15].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[16].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[17].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[18].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[19].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[1].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[20].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[21].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[22].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[23].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[24].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[25].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[26].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[27].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[28].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[29].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[2].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[30].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[31].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[3].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[4].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[5].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[6].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[7].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[8].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp' for cell 'DSP[9].your_instance_name_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/blk_mem_gen_TDP_Awrite288read288depth16384_BsimilarToA_128BRAM_synth_1/blk_mem_gen_TDP_Awrite288read288depth16384_BsimilarToA_128BRAM.dcp' for cell 'your_instance_name'
+INFO: [Netlist 29-17] Analyzing 160 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Test' is not ideal for floorplanning, since the cellview 'Test' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2015.3
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/constrs_1/new/StreamWriteControl.xdc]
+Finished Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/constrs_1/new/StreamWriteControl.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/blk_mem_gen_TDP_Awrite288read288depth16384_BsimilarToA_128BRAM_synth_1/blk_mem_gen_TDP_Awrite288read288depth16384_BsimilarToA_128BRAM.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1458.129 ; gain = 519.762 ; free physical = 590 ; free virtual = 11307
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.38 . Memory (MB): peak = 1500.148 ; gain = 34.016 ; free physical = 587 ; free virtual = 11304
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1846143b8
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 14b356e2f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2037.891 ; gain = 0.000 ; free physical = 155 ; free virtual = 10765
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 1280 cells.
+Phase 2 Constant Propagation | Checksum: 145c5ab84
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2037.891 ; gain = 0.000 ; free physical = 148 ; free virtual = 10754
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 2100 unconnected nets.
+INFO: [Opt 31-11] Eliminated 2146 unconnected cells.
+Phase 3 Sweep | Checksum: ef53e2a0
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2037.891 ; gain = 0.000 ; free physical = 149 ; free virtual = 10751
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2037.891 ; gain = 0.000 ; free physical = 137 ; free virtual = 10739
+Ending Logic Optimization Task | Checksum: ef53e2a0
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2037.891 ; gain = 0.000 ; free physical = 127 ; free virtual = 10730
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 128 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 256
+Ending PowerOpt Patch Enables Task | Checksum: ef53e2a0
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.18 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 120 ; free virtual = 10407
+Ending Power Optimization Task | Checksum: ef53e2a0
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2429.500 ; gain = 391.609 ; free physical = 120 ; free virtual = 10407
+INFO: [Common 17-83] Releasing license: Implementation
+91 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 2429.500 ; gain = 971.371 ; free physical = 120 ; free virtual = 10407
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 161 ; free virtual = 10417
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/impl_1/Test_drc_opted.rpt.
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [DRC 23-20] Rule violation (BIIVRC-1-1) Bank IO standard internal Vref conflict - BIIVRC-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BISLIM-1-1) Bank IO standard limits - BISLIM-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVB-1-1) Bank IO standard Support - BIVB-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVC-1-1) Bank IO standard Vcc - BIVC-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVR-1-1) Bank IO standard Vref - BIVR-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVRU-1-1) Bank IO standard Vref utilization - BIVRU-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVT-1-1) Bank IO standard Termination - BIVT-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTD-1-1) Inconsistent Diff pair IOStandards - DIFFISTD-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTDDrv-1-1) Inconsistent Diff pair IOStandards - DIFFISTDDrv-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTDSlew-1-1) Inconsistent Diff pair IOStandards - DIFFISTDSlew-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (IOCNT-2-1) Number of HP/HR/HD IOs - IOCNT-2 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (IOPCMGT-1-1) MGT not allowed for part compatibility - IOPCMGT-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-1-1) Drive strength and I/O standard compatibility - PORTPROP-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-3-1) Differential port pair I/O standard compatibility - PORTPROP-3 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-4-1) Slew type and I/O standard compatibility - PORTPROP-4 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-5-1) DQS_BIAS and I/O standard compatibility - PORTPROP-5 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (VCCAUX1-1-1) Vccaux voltage requirement for LVCMOS25 - VCCAUX1-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (VCCAUX1-2-1) Vccaux voltage requirement for LVPECL_33 and TMDS_33 - VCCAUX1-2 rule not checked: Too many IO ports
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 18 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 137 ; free virtual = 10406
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 137 ; free virtual = 10406
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: 00000000
+
+Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.93 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 136 ; free virtual = 10407
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: 00000000
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 152 ; free virtual = 10387
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: 00000000
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 152 ; free virtual = 10386
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 00000000
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 152 ; free virtual = 10386
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e50fca83
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 152 ; free virtual = 10386
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 14083f1c7
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 136 ; free virtual = 10375
+Phase 1.2.1 Place Init Design | Checksum: 114f063d7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 144 ; free virtual = 10386
+Phase 1.2 Build Placer Netlist Model | Checksum: 114f063d7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 144 ; free virtual = 10386
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: 114f063d7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 144 ; free virtual = 10386
+Phase 1.3 Constrain Clocks/Macros | Checksum: 114f063d7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 144 ; free virtual = 10386
+Phase 1 Placer Initialization | Checksum: 114f063d7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 144 ; free virtual = 10386
+
+Phase 2 Global Placement
+SimPL: WL = 374438 (160956, 213482)
+SimPL: WL = 370163 (160956, 209207)
+SimPL: WL = 364126 (160956, 203170)
+SimPL: WL = 365143 (160956, 204187)
+SimPL: WL = 362239 (160956, 201283)
+Phase 2 Global Placement | Checksum: 1c7d72880
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 322 ; free virtual = 10510
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1c7d72880
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 322 ; free virtual = 10510
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1bfae59b4
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:28 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 322 ; free virtual = 10510
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 107f71806
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:28 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 322 ; free virtual = 10510
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 107f71806
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:28 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 322 ; free virtual = 10510
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 172a19c11
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:29 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 321 ; free virtual = 10510
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 172a19c11
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:29 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 321 ; free virtual = 10510
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: 2928e4c5e
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: 2928e4c5e
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: 2928e4c5e
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 2928e4c5e
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+Phase 3.7 Small Shape Detail Placement | Checksum: 2928e4c5e
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:36 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 24bdf7b5b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:37 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+Phase 3 Detail Placement | Checksum: 24bdf7b5b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:37 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10543
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: 1e8ce0d0f
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:41 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 374 ; free virtual = 10560
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: 1e8ce0d0f
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:41 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 372 ; free virtual = 10558
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: 1e8ce0d0f
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 381 ; free virtual = 10567
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 1e8ce0d0f
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 381 ; free virtual = 10567
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 1e8ce0d0f
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:42 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 382 ; free virtual = 10568
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+
+Phase 4.1.3.2.1 Restore Best Placement
+Phase 4.1.3.2.1 Restore Best Placement | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:55 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 377 ; free virtual = 10572
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.504. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:56 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 377 ; free virtual = 10572
+Phase 4.1.3 Post Placement Optimization | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:56 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+Phase 4.1 Post Commit Optimization | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:56 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:56 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:56 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:57 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 377 ; free virtual = 10571
+Phase 4.4 Placer Reporting | Checksum: 1c1011bd4
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:57 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 377 ; free virtual = 10571
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 1b8c11190
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:57 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1b8c11190
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:57 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+Ending Placer Task | Checksum: 147b6d979
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:57 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+INFO: [Common 17-83] Releasing license: Implementation
+123 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:00 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 378 ; free virtual = 10571
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 352 ; free virtual = 10572
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 359 ; free virtual = 10569
+report_io: Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:01 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 355 ; free virtual = 10566
+report_utilization: Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.48 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 357 ; free virtual = 10569
+report_control_sets: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2429.500 ; gain = 0.000 ; free physical = 357 ; free virtual = 10570
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [DRC 23-20] Rule violation (BIIVRC-1-1) Bank IO standard internal Vref conflict - BIIVRC-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BISLIM-1-1) Bank IO standard limits - BISLIM-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVB-1-1) Bank IO standard Support - BIVB-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVC-1-1) Bank IO standard Vcc - BIVC-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVR-1-1) Bank IO standard Vref - BIVR-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVRU-1-1) Bank IO standard Vref utilization - BIVRU-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (BIVT-1-1) Bank IO standard Termination - BIVT-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTD-1-1) Inconsistent Diff pair IOStandards - DIFFISTD-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTDDrv-1-1) Inconsistent Diff pair IOStandards - DIFFISTDDrv-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (DIFFISTDSlew-1-1) Inconsistent Diff pair IOStandards - DIFFISTDSlew-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (IOCNT-2-1) Number of HP/HR/HD IOs - IOCNT-2 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (IOPCMGT-1-1) MGT not allowed for part compatibility - IOPCMGT-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-1-1) Drive strength and I/O standard compatibility - PORTPROP-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-3-1) Differential port pair I/O standard compatibility - PORTPROP-3 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-4-1) Slew type and I/O standard compatibility - PORTPROP-4 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (PORTPROP-5-1) DQS_BIAS and I/O standard compatibility - PORTPROP-5 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (VCCAUX1-1-1) Vccaux voltage requirement for LVCMOS25 - VCCAUX1-1 rule not checked: Too many IO ports
+INFO: [DRC 23-20] Rule violation (VCCAUX1-2-1) Vccaux voltage requirement for LVPECL_33 and TMDS_33 - VCCAUX1-2 rule not checked: Too many IO ports
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 18 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: 6ae7193a ConstDB: 0 ShapeSum: dccfc03f RouteDB: 0
+
+Phase 1 Build RT Design
+Using Offlined NodeGraph Builder
+WARNING: [Route 35-197] Clock port "clk" does not have an associated HD.CLK_SRC. Without this constraint, timing analysis may not be accurate and upstream checks cannot be done to ensure correct clock placement.
+WARNING: [Route 35-198] Port "addra[11]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[11]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[10]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[10]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[9]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[9]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[8]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[8]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[7]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[7]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[6]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[6]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[5]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[5]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[4]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[4]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[3]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[3]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[2]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[2]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[1]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[1]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addra[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addra[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[11]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[11]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[10]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[10]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[9]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[9]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[8]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[8]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[7]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[7]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[6]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[6]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[5]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[5]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[4]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[4]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[3]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[3]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[2]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[2]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[1]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[1]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "addrb[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "addrb[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[205]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[205]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[204]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[204]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[203]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[203]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[202]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[202]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[201]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[201]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[200]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[200]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[199]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[199]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[198]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[198]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[205]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[205]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[204]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[204]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[203]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[203]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[202]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[202]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[201]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[201]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[200]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[200]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[199]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[199]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[198]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[198]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[206]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[206]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[206]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[206]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "ena" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "ena". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "enb" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "enb". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "wea[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "wea[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "web[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "web[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[259]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[259]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[258]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[258]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[257]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[257]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[256]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[256]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[255]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[255]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[254]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[254]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[253]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[253]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[252]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[252]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[259]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[259]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[258]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[258]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[257]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[257]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[256]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[256]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[255]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[255]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[254]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[254]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[253]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[253]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[252]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[252]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[260]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[260]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[260]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[260]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[115]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[115]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[114]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[114]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[113]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[113]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[112]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[112]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[111]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[111]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[110]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[110]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[109]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[109]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[108]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[108]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[115]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[115]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[114]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[114]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[113]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[113]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[112]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[112]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[111]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[111]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[110]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[110]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[109]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[109]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[108]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[108]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[116]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[116]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[116]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[116]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[250]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[250]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[249]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[249]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[248]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[248]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[247]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[247]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[246]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[246]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[245]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[245]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[244]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[244]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[243]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[243]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[250]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[250]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[249]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[249]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[248]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[248]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[247]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[247]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[246]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[246]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[245]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[245]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[244]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[244]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[243]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[243]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dina[251]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dina[251]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "dinb[251]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "dinb[251]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+INFO: [Common 17-14] Message 'Route 35-198' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1 Build RT Design | Checksum: 3867558b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:29 . Memory (MB): peak = 2538.570 ; gain = 109.070 ; free physical = 175 ; free virtual = 10241
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 3867558b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:30 . Memory (MB): peak = 2538.574 ; gain = 109.074 ; free physical = 165 ; free virtual = 10232
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 3867558b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:30 . Memory (MB): peak = 2564.906 ; gain = 135.406 ; free physical = 145 ; free virtual = 10212
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: e4ad0bed
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:34 . Memory (MB): peak = 2597.617 ; gain = 168.117 ; free physical = 130 ; free virtual = 10235
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.718  | TNS=0.000  | WHS=0.076  | THS=0.000  |
+
+Phase 2 Router Initialization | Checksum: 18d944ae5
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:36 . Memory (MB): peak = 2597.617 ; gain = 168.117 ; free physical = 169 ; free virtual = 10162
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 13d8ca7a5
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:38 . Memory (MB): peak = 2597.617 ; gain = 168.117 ; free physical = 181 ; free virtual = 10166
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2518
+ Number of Nodes with overlaps = 65
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 12d107633
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:43 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 171 ; free virtual = 10162
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.410  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 171 ; free virtual = 10162
+Phase 4 Rip-up And Reroute | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 171 ; free virtual = 10162
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 172 ; free virtual = 10163
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.410  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 169 ; free virtual = 10165
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 169 ; free virtual = 10164
+Phase 5 Delay and Skew Optimization | Checksum: 19b9abb52
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 169 ; free virtual = 10164
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 144fdcc9d
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:45 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 166 ; free virtual = 10165
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.410  | TNS=0.000  | WHS=0.098  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 144fdcc9d
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:45 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 166 ; free virtual = 10164
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.977053 %
+  Global Horizontal Routing Utilization  = 1.33778 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1ffc82347
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:46 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 167 ; free virtual = 10164
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1ffc82347
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:46 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 166 ; free virtual = 10162
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 26e2593ea
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:47 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 179 ; free virtual = 10163
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.410  | TNS=0.000  | WHS=0.098  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 26e2593ea
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:47 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 181 ; free virtual = 10163
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:47 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 181 ; free virtual = 10163
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+155 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2598.617 ; gain = 169.117 ; free physical = 180 ; free virtual = 10163
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2598.617 ; gain = 0.000 ; free physical = 143 ; free virtual = 10164
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2598.621 ; gain = 0.004 ; free physical = 324 ; free virtual = 10360
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/impl_1/Test_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2598.621 ; gain = 0.000 ; free physical = 199 ; free virtual = 10350
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 23 12:27:11 2016...

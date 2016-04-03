@@ -1,0 +1,40 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 21.01.2016 11:13:07
+-- Design Name: 
+-- Module Name: GlobalPackage - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.std_logic_unsigned.all;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+package NetworkPackage is
+  constant     C_WeightBitWidth     : integer       := 18;
+  constant     C_DataBitWidth       : integer       := 18;
+  subtype DataWord_st is std_logic_vector((C_DataBitWidth-1) downto 0);
+  type DataWord_t is std_logic_vector((C_DataBitWidth-1) downto 0);
+end NetworkPackage;

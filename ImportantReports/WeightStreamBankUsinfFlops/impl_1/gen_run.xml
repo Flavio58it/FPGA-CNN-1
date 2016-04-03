@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1456210062">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Test.vdi"/>
+  <File Type="BG-DRC" Name="Test.drc"/>
+  <File Type="BG-BGN" Name="Test.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Test.sysdef"/>
+  <File Type="BITSTR-MMI" Name="Test.mmi"/>
+  <File Type="BITSTR-BMM" Name="Test_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Test.nky"/>
+  <File Type="BITSTR-RBT" Name="Test.rbt"/>
+  <File Type="BITSTR-MSK" Name="Test.msk"/>
+  <File Type="BG-BIN" Name="Test.bin"/>
+  <File Type="BG-BIT" Name="Test.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Test_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Test_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Test_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="Test_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Test_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Test_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Test_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Test_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Test_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Test_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Test_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Test_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Test_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Test_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Test_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Test_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Test_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Test_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Test_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Test_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Test_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Test_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Test_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Test_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Test_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Test_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Test_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Test_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Test_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Test_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Test_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Test_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="Test_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Test.hwdef"/>
+  <File Type="OPT-DRC" Name="Test_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Test_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Test_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Test_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="Test.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/GlobalPackage.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TestPackage.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Test.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/WeightBankPkg.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvPackage.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/WeightBank.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ShiftUnit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataBRAM_ShiftUnitInterface.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightStreaming_WriteControl_Level1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightStreaming_ReadControl_Level1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightLocalMemory_ReadControl_Level1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightLocalMemory.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightBank_ReadControl_Level1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightBankToMACDatapath_v3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngineWeightBankToMACControl_v3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BRAMunit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/WeightBankMACInterfcae_v2.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/WordBankMACInterface.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ConvEngine_TopDataPath.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Test"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/StreamWriteControl.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/StreamWriteControl.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_TDP_Awrite288read288depth16384_BsimilarToA_128BRAM"/>
+  <BlockFileSet Type="BlockSrcs" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding"/>
+</GenRun>

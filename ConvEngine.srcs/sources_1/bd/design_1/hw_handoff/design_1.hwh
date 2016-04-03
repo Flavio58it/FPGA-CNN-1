@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Mar 31 14:55:08 2016" VIVADOVERSION="2015.3">
+
+  <SYSTEMINFO ARCH="virtex7" BOARD="xilinx.com:vc707:part0:1.2" DEVICE="7vx485t" NAME="design_1" PACKAGE="ffg1761" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES/>
+
+</EDKSYSTEM>

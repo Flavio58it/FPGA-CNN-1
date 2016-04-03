@@ -1,0 +1,404 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Thu Mar 24 19:12:43 2016
+# Process ID: 10258
+# Current directory: /home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_Test_synth_1
+# Command line: vivado -log xbip_dsp48_macro_Test.vds -mode batch -messageDb vivado.pb -notrace -source xbip_dsp48_macro_Test.tcl
+# Log file: /home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_Test_synth_1/xbip_dsp48_macro_Test.vds
+# Journal file: /home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_Test_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xbip_dsp48_macro_Test.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'xbip_dsp48_macro_Test' generated file not found '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_dsp48_macro_Test' generated file not found '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_dsp48_macro_Test' generated file not found '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_dsp48_macro_Test' generated file not found '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_dsp48_macro_Test' generated file not found '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top xbip_dsp48_macro_Test -part xc7vx485tffg1761-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 1062.836 ; gain = 197.703 ; free physical = 264 ; free virtual = 12024
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_Test' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/synth/xbip_dsp48_macro_Test.vhd:72]
+INFO: [Synth 8-3491] module 'xbip_dsp48_macro_v3_0_10' declared at '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0.vhd:119' bound to instance 'U0' of component 'xbip_dsp48_macro_v3_0_10' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/synth/xbip_dsp48_macro_Test.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_v3_0_10' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0.vhd:239]
+INFO: [Synth 8-3491] module 'xbip_dsp48_macro_v3_0_10_viv' declared at '/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:4328' bound to instance 'i_synth' of component 'xbip_dsp48_macro_v3_0_10_viv' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_v3_0_10_viv' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:4460]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:828]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:831]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:834]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:838]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:843]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:847]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:855]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:858]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:861]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:864]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_rtl' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:1780]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:1055]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:2010]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized0' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized0' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized1' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized1' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized2' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized2' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized3' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized3' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized4' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized4' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized5' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized5' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized6' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized6' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized7' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized7' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized8' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized8' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized9' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized9' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized10' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized10' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized11' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized11' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized12' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized12' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized13' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized13' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized14' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized14' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized15' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized15' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized16' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized16' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized17' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized17' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized18' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized18' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized19' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized19' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized20' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized20' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized21' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized21' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized22' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized22' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized23' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized23' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized24' [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:593]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_utils_v3_0_4/hdl/xbip_utils_v3_0_vh_rfs.vhd:596]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_0_viv__parameterized24' (1#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_pipe_v3_0_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_rtl' (2#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:1780]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_v3_0_10_viv' (3#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0_vh_rfs.vhd:4460]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_v3_0_10' (4#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_v3_0_10/hdl/xbip_dsp48_macro_v3_0.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_Test' (5#1) [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/synth/xbip_dsp48_macro_Test.vhd:72]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1105.215 ; gain = 240.082 ; free physical = 213 ; free virtual = 11979
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1105.215 ; gain = 240.082 ; free physical = 212 ; free virtual = 11979
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_Test_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.runs/xbip_dsp48_macro_Test_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1526.004 ; gain = 0.000 ; free physical = 172 ; free virtual = 11670
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11032 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1526.008 ; gain = 660.875 ; free physical = 157 ; free virtual = 11663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1526.008 ; gain = 660.875 ; free physical = 157 ; free virtual = 11663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1526.008 ; gain = 660.875 ; free physical = 157 ; free virtual = 11663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:37 . Memory (MB): peak = 1526.008 ; gain = 660.875 ; free physical = 140 ; free virtual = 11646
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:37 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 140 ; free virtual = 11646
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:37 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 136 ; free virtual = 11641
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:37 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 136 ; free virtual = 11641
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 134 ; free virtual = 11640
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 134 ; free virtual = 11640
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 1526.012 ; gain = 660.879 ; free physical = 145 ; free virtual = 11490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 1548.801 ; gain = 683.668 ; free physical = 131 ; free virtual = 11470
+---------------------------------------------------------------------------------
+Finished Parallel Timing Optimization  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 1548.801 ; gain = 683.668 ; free physical = 131 ; free virtual = 11470
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 1548.801 ; gain = 683.668 ; free physical = 131 ; free virtual = 11470
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 131 ; free virtual = 11467
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 131 ; free virtual = 11467
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 131 ; free virtual = 11467
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 127 ; free virtual = 11465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 127 ; free virtual = 11465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 127 ; free virtual = 11465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 127 ; free virtual = 11465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   136|
+|2     |LUT1   |    68|
+|3     |LUT2   |   196|
+|4     |LUT3   |    47|
+|5     |LUT4   |   142|
+|6     |LUT5   |   159|
+|7     |LUT6   |   640|
+|8     |FDRE   |   544|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 127 ; free virtual = 11465
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1556.809 ; gain = 145.184 ; free physical = 124 ; free virtual = 11463
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1556.809 ; gain = 691.676 ; free physical = 124 ; free virtual = 11463
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 136 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/edcn103/Dropbox/M.tech/Project/Hardware_Implementation/ConvEngine/ConvEngine.srcs/sources_1/ip/xbip_dsp48_macro_Test/xbip_dsp48_macro_Test_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 76 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1556.812 ; gain = 616.445 ; free physical = 122 ; free virtual = 11464
+INFO: [Coretcl 2-1174] Renamed 24 cell refs.
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.25 . Memory (MB): peak = 1588.828 ; gain = 0.000 ; free physical = 143 ; free virtual = 11478
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 24 19:13:45 2016...

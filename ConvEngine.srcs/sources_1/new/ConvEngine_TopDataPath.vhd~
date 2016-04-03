@@ -1,0 +1,91 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 01.02.2016 00:02:37
+-- Design Name: 
+-- Module Name: ConvEngine_TopDataPath - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+--use ieee.std_logic_unsigned.all;
+use IEEE.NUMERIC_STD.ALL;
+
+use work.NetworkPackage.all;
+use work.ConvPackage.all;
+use work.WeightBankPkg.all;
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity ConvEngine_TopDataPath is
+	Port ( clk,rst: in std_logic;
+		  WordsFromWeightBank: in WeightBankOutput_t;
+          Level2_to_StreamingBRAM: out ParallelWeightChannels_t;
+		  WeightTowardsMAC: out ConvUnitWeightPort_t
+	);
+	
+end ConvEngine_TopDataPath;
+
+architecture Behavioral of ConvEngine_TopDataPath is
+--------------Component-------------
+
+component  WeightBankMACInterface is
+  Port ( WordsFromWeightBank: in WeightBankOutput_t;
+         clk,rst: in std_logic;
+         Level1_MuxSelect: in Level1_BankMuxSelect_t;
+         Level2_MuxSelect: in Level2_ParallelWeightChannelsMuxSelect_t;
+         Level2_to_StreamingBRAM: out ParallelWeightChannels_t
+         );
+end component;
+
+component DataBRAM_ConvUnitInterface 
+  Port (BRAMWord: in DataBRAMPort_t;
+        clk,rst: in std_logic;
+        LoadEnable: in std_logic_vector(0 to C_NumberofParallelShiftUnits-1);
+        MuxSelect: in DataBRAM_ConvUnitInterfaceMuxSelect_t;
+        TowardsConvUnit: out ConvUnitDataPort_t
+        );
+end component;
+
+
+------------signals---------------
+signal WordsFromWeighBankToMACInterface: WeightBankOutput_t;
+signal Level1_MuxSelectForWeightBankMACInterface: Level1_BankMuxSelect_t;
+signal Level2_MuxSelectForWeightBankMACInterface: Level2_ParallelWeightChannelsMuxSelect_t;
+------begins!!-----
+begin
+  WeightBank: WeightBank
+    port map (
+      WordsFromWeightBank=> WordsFromWeighBankToMACInterface,
+      clk=> clk,
+      rst=> rst,
+      Level1_MuxSelect=> Level1_MuxSelectForWeightBankMACInterface,
+      Level2_MuxSelect=> Level2_MuxSelectForWeightBankMACInterface,
+      Level2_to_StreamingBRAM=> Level2_to_StreamingBRAM
+      );
+
+  WeightBankMACInterface: WeightBankMACInterface
+    port map (WordsFromWeightBank
+      
+    );
+
+end Behavioral;

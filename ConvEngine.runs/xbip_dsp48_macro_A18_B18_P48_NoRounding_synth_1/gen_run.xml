@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1456208903">
+  <File Type="RDS-RDS" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding.vds"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding.tcl"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/sources.xml"/>
+  <File Type="VDS-TIMING-PB" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding_timing_summary_synth.pb"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1/xbip_dsp48_macro_A18_B18_P48_NoRounding_synth_1.psg"/>
+  <File Type="RDS-DCP" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding.dcp"/>
+  <File Type="RDS-PROPCONSTRS" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding_drc_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="xbip_dsp48_macro_A18_B18_P48_NoRounding_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/xbip_dsp48_macro_A18_B18_P48_NoRounding">
+    <File Path="$PSRCDIR/sources_1/ip/xbip_dsp48_macro_A18_B18_P48_NoRounding/xbip_dsp48_macro_A18_B18_P48_NoRounding.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="xbip_dsp48_macro_A18_B18_P48_NoRounding"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/xbip_dsp48_macro_A18_B18_P48_NoRounding">
+    <File Path="$PSRCDIR/sources_1/ip/xbip_dsp48_macro_A18_B18_P48_NoRounding/xbip_dsp48_macro_A18_B18_P48_NoRounding.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="xbip_dsp48_macro_A18_B18_P48_NoRounding"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
